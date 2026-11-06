@@ -61,14 +61,3 @@ VERDICT
 Class : Trojan / stealer / loader (fake gaming tweak, paid cheat wrapper)
 Risk  : HIGH
 Reasons : unsigned, packed/obfuscated (ent ~8.0), anti-analysis (ConfuserEx), KeyAuth license gate, HWID/token/password/cookie theft, webhook exfil, SSL cert bypass, spread via fileport.io warez + gaming tweak camouflage (BIOS tweaks, power plans, screenshots).
-
-IF ALREADY RUN
-- isolate host
-- change all acc passw, enable MFA
-- rotate creds/api keys/crypto addr / Discord tokens / browser cookies
-- del temp MSI Center files, innoextract.exe if unwanted
-- reset proxy settings, remove rogue root CA
-- block keyauth.win + keyauth.cc at fw/proxy
-- submit SHA256 to VT / SOC
-
-END
